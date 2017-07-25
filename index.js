@@ -99,7 +99,7 @@ $(function(){
 		
 		$.each( room_submission , function (v_day , d_room){
 			//放置議程日期的空間
-			$('body').append('<div class="class_day" ref="'+v_day+'" id="div_day_'+v_day+'"><div class="class_title_day">'+v_day+'日</div><div class="class_times" id="div_tims_'+v_day+'"></div></div>');
+			$('body').append('<div class="class_day" ref="'+v_day+'" id="div_day_'+v_day+'"><div class="class_title_day">2017.08.0'+v_day+'</div><div class="class_times" id="div_tims_'+v_day+'"></div></div>');
 
 			//產生時間軸
 			for(var i=8;i<17;i++){
