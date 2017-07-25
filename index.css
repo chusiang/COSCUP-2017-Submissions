@@ -6,6 +6,13 @@ body {
 	color: #ffffff;
 }
 
+header {
+  line-height: 50px;
+	text-align: center;
+	font-size: 1.2em;
+  font-family: verdana;
+}
+
 a:link , a:visited {
   color: #ffffff;
 }
